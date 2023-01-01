@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap");
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  height: 90vh;
+  width: 80vh;
+  border: 1px solid black;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.fa-twitter {
+  font-size: 30px;
+  color: rgb(29, 155, 240);
+}
+
+h2 {
+  font-size: 30px;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+button {
+  outline: none;
+  background-color: white;
+  border-radius: 25px;
+  border: 1px solid gray;
+  cursor: pointer;
+  text-align: center;
+  padding: 0px;
+  height: 40px;
+  width: 300px;
+}
+
+.option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.option-1:hover {
+  background-color: #bffafd;
+}
+
+.option-2:hover,
+.forget:hover {
+  background-color: #eceded;
+}
+
+.apple {
+  font-weight: bold;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+.google {
+  font-weight: 300;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+.fa-apple {
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+input {
+  height: 40px;
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  padding: 10px;
+}
+
+.next {
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.next:hover {
+  border-color: #1d3b3d;
+}
+
+.forget {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(29, 155, 240);
+}
